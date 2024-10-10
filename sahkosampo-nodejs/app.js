@@ -41,5 +41,4 @@ app.get('/api/ha/states/', (req, res) => {
 // Start server
 app.listen(port, () => {
     console.log(`Addon is running on port ${port}`);
-    console.log(`Supervisor token ${SUPERVISOR_TOKEN}`);
 });
