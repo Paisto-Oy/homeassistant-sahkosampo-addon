@@ -1,0 +1,28 @@
+{
+    "name": "Sähkösampo addon",
+    "slug": "sahkosampo_nodejs_addon",
+    "version": "1.0.1",
+    "url": "https://github.com/Paisto-Oy/homeassistant-sahkosampo-addon",
+    "addons": [
+        {
+            "slug": "sahkosampo_nodejs_addon",
+            "name": "Sähkösampo addon",
+            "description": "Test description",
+            "startup": "services",
+            "boot": "auto",
+            "ports": {
+                "9467/tcp": 9467
+            },
+            "architecture": [
+                "amd64",
+                "armv7",
+                "aarch64"
+            ],
+            "url": "https://github.com/Paisto-Oy/homeassistant-sahkosampo-addon/sahkosampo-nodejs",
+            "repository": "https://github.com/Paisto-Oy/homeassistant-sahkosampo-addon",
+            "homeassistant": ">= 2021.1.0",
+            "options": {},
+            "schema": {}
+        }
+    ]
+}
