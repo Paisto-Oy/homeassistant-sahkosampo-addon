@@ -10,7 +10,6 @@
     },
     "options": {},
     "schema": {},
-    "image": "homeassistant/amd64-addon-nodejs_web_server",
     "arch": [
         "amd64",
         "armv7",

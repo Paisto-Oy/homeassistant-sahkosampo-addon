@@ -30,7 +30,7 @@ jobs:
       - name: Build and Push Docker Image
         uses: docker/build-push-action@v4
         with:
-          context: ./nodejs_web_server
+          context: ./sahkosampo-nodejs
           push: true
           tags: ghcr.io/Paisto-Oy/homeassistant-sahkosampo-addon/sahkosampo-nodejs:latest
           platforms: linux/amd64,linux/armv7,linux/aarch64
