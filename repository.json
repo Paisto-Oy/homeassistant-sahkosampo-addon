@@ -20,6 +20,7 @@
             ],
             "url": "https://github.com/Paisto-Oy/homeassistant-sahkosampo-addon/sahkosampo-nodejs",
             "repository": "https://github.com/Paisto-Oy/homeassistant-sahkosampo-addon",
+            "image": "ghcr.io/Paisto-Oy/homeassistant-sahkosampo-addon/sahkosampo-nodejs:latest",
             "homeassistant": ">= 2021.1.0",
             "options": {},
             "schema": {}
