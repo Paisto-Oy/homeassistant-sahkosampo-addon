@@ -7,7 +7,6 @@ const SUPERVISOR_TOKEN = process.env.SUPERVISOR_TOKEN;
 const HA_ROOT_URL = "http://supervisor/core";
 // Simple route
 app.get('/', (req, res) => {
-    sendHaMessage({ "type": "get_states" });
     axios.get(`${HA_ROOT_URL}/api/states`,
         {
             headers: {
