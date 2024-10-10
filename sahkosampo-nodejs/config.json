@@ -18,7 +18,7 @@
     "url": "https://github.com/Paisto-Oy/homeassistant-sahkosampo-addon",
     "startup_events": [],
     "host_network": false,
-    "homeassistant_api": false,
+    "homeassistant_api": true,
     "options": {},
     "map": [
         "config"
