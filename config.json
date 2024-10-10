@@ -1,0 +1,30 @@
+{
+    "name": "Sähkösampo addon",
+    "version": "1.0.0",
+    "slug": "sahkosampo_nodejs_addon",
+    "description": "A Node.js addon for Home Assistant",
+    "startup": "services",
+    "boot": "auto",
+    "ports": {
+        "3000/tcp": 3000
+    },
+    "options": {},
+    "schema": {},
+    "image": "homeassistant/amd64-addon-nodejs_web_server",
+    "arch": [
+        "amd64",
+        "armv7",
+        "aarch64"
+    ],
+    "url": "https://github.com/Paisto-Oy/homeassistant-sahkosampo-addon",
+    "startup_events": [],
+    "host_network": false,
+    "homeassistant_api": false,
+    "options": {},
+    "map": [
+        "config"
+    ],
+    "devices": [],
+    "environment": {},
+    "full_access": false
+}

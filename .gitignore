@@ -1,0 +1,12 @@
+package-lock.json
+yarn.lock
+server/.env
+server/dist
+client/node_modules
+server/node_modules
+client/.yarn
+serever/.yarn
+/data_examples
+settings.json
+icaldata.json
+node_modules
