@@ -16,7 +16,7 @@ RUN npm install --only=production
 COPY app.js ./
 
 # Expose the necessary port
-EXPOSE 3000
+EXPOSE 9467
 
 # Define the entrypoint
 CMD ["node", "app.js"]
