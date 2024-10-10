@@ -1,6 +1,6 @@
 {
     "name": "Sähkösampo addon",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "slug": "sahkosampo_nodejs_addon",
     "description": "A Node.js addon for Home Assistant",
     "startup": "services",
