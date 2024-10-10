@@ -6,7 +6,7 @@
     "startup": "services",
     "boot": "auto",
     "ports": {
-        "3000/tcp": 3000
+        "9467/tcp": 9467
     },
     "options": {},
     "schema": {},
