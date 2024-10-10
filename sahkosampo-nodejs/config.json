@@ -1,6 +1,6 @@
 {
     "name": "Sähkösampo addon",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "slug": "sahkosampo_nodejs_addon",
     "description": "Test description",
     "startup": "services",
