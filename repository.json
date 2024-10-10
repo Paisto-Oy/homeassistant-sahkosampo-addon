@@ -1,7 +1,7 @@
 {
     "name": "Sähkösampo addon",
     "slug": "sahkosampo_nodejs_addon",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "url": "https://github.com/Paisto-Oy/homeassistant-sahkosampo-addon",
     "addons": [
         {
