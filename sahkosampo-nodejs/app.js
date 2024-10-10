@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 const port = process.env.PORT || 9467;
 const SUPERVISOR_TOKEN = process.env.SUPERVISOR_TOKEN;
-
+const HA_ROOT_URL = "http://supervisor/core";
 // Simple route
 app.get('/', (req, res) => {
     sendHaMessage({ "type": "get_states" });
